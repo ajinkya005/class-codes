@@ -298,3 +298,128 @@ int main()
 	
 	return 0;
 }
+
+/*
+
+
+                menu
+
+
+        1.create graph using matrix
+        2.dijikstra's algorithm using matrix
+        3.exit1
+
+ enter no of vertices :
+5
+
+ enter landmark1:1
+
+ enter landmark2:2
+
+ enter landmark3:3
+
+ enter landmark4:4
+
+ enter landmark5:5
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+1 2
+
+ enter edge distance :
+6
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+2 3
+
+ enter edge distance :
+8
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+3 4
+
+ enter edge distance :
+2
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+4 5
+
+ enter edge distance :
+4
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+5 1
+
+ enter edge distance :
+3
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+1 4
+
+ enter edge distance :
+9
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+5 2
+
+ enter edge distance :
+5
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+-1 -1
+
+
+                menu
+
+
+        1.create graph using matrix
+        2.dijikstra's algorithm using matrix
+        3.exit2
+
+ enter source and destination :
+1 3
+
+ shortest dis between1and3is :9
+ path of shortest dist :
+3-->4-->5-->1
+ continue (1 : yes)  :
+

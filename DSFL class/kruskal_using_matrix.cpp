@@ -33,8 +33,8 @@ class ENode
 	
 	friend class Graph;
 	
-	friend void Earray_Using_List(HNode*);
-	friend void prims_Using_List();
+	friend void Earray_Using_Matrix(HNode*);
+	friend void kruskal_Using_MAtrix();
 		
 };
 
@@ -52,7 +52,7 @@ class Graph
 	public:
 		
 		void createMat();
-		void createList();
+		//void createList();
 		//void prims_Using_Matrix();
 		//void prims_Using_List();
 		void kruskal_Using_Matrix();
@@ -79,8 +79,8 @@ class Graph
 		}
 
 
-		friend void Earray_Using_List(HNode*);
-		friend void prims_Using_List();
+		friend void Earray_Using_Matrix(HNode*);
+		friend void prims_Using_Matrix();
 		
 		
 	
@@ -411,3 +411,132 @@ int main()
 	
 	return 0;
 }
+
+/*
+
+
+                menu
+
+
+        1.create graph using list
+        2.kruskals algorithm using matrix
+        3.exit1
+
+ enter no of vertices :
+5
+
+ enter landmark1:1
+
+ enter landmark2:2
+
+ enter landmark3:3
+
+ enter landmark4:4
+
+ enter landmark5:5
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+1 4
+
+ enter edge distance :
+3
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+2 5
+
+ enter edge distance :
+9
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+4 5
+
+ enter edge distance :
+6
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+3 4
+
+ enter edge distance :
+5
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+2 4
+
+ enter edge distance :
+1
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+2 5
+
+ enter edge distance :
+8
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+4 1
+
+ enter edge distance :
+2
+
+1.1
+2.2
+3.3
+4.4
+5.5
+ enter two landmark no's having edge(enter any landmark no. -1 to stop) :
+-1 -1
+
+
+                menu
+
+
+        1.create graph using list
+        2.kruskals algorithm using matrix
+        3.exit2
+
+2<-->4=1
+4<-->1=2
+3<-->4=5
+4<-->5=6
+ cost of span tree :14
+
+                menu
+
+
+        1.create graph using list
+        2.kruskals algorithm using matrix
+        3.exit*/
